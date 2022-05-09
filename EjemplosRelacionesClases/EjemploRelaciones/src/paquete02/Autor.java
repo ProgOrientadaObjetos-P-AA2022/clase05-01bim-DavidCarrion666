@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package paquetedos;
+package paquete02;
 
 /**
  *
@@ -15,8 +15,8 @@ public class Autor {
     private String apellido;
 
     public Autor(String a, String b) {
-        nombre = a;
-        apellido = b;
+        nombre = a; // jose
+        apellido = b; // alvear
     }
 
     public void establecerNombre(String n) {
